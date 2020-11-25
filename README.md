@@ -1,6 +1,6 @@
 # Demo Kafka Python with GUI
 
-This demo uses python clients to publish and consume from kafka through GUIs.
+This demo uses python clients to publish and consume sample data from kafka through GUIs.
 
 For more information see (https://docs.confluent.io/current/tutorials/examples/clients/docs/python.html#client-examples-python)
 
