@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 Create a local file (if not created) in project directory, named kafka.config, with configuration parameters to connect to your Kafka cluster.
 
-*Template configuration file for Confluent Cloud
+Template configuration file for Confluent Cloud
 ```
 # Kafka
 bootstrap.servers={{ BROKER_ENDPOINT }}
@@ -34,7 +34,7 @@ sasl.username={{ CLUSTER_API_KEY }}
 sasl.password={{ CLUSTER_API_SECRET }}
 ```
 
-*Template configuration file for local host
+Template configuration file for local host
 ```
 # Kafka
 bootstrap.servers=localhost:9092
